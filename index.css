@@ -24,3 +24,33 @@
     transform: translateY(-50%);
     text-transform: uppercase;
 }
+.btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 22px;
+    background-color: #5e4485;
+    border: 2px solid #fff;
+}
+.btn:hover{
+    color: #5e4485;
+    background-color: #fff;
+    border: 2px solid #5e4485;
+}
+.container{
+    margin: 4% auto;
+}
+#icon{
+    max-width: 120px;
+    margin: 1% auto;
+}
+@media (max-width: 780px){
+    .carousel-caption{
+        display: none;
+    }
+    #icon{
+        max-width: 150px;
+    }
+    h4{
+        font-size: 1.5em;
+    }
+}
