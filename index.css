@@ -19,6 +19,21 @@
 .navbar-inverse .navbar-nav li a{
     color: #d5d5d5
 }
+#myCarousel{
+  height: 750px;
+}
+#myCarousel .carousel-inner .who-i-am{
+  height: 750px;
+  background-color: #a9f7fd;
+}
+#myCarousel .carousel-inner .what-i-am-working-on{
+  height: 750px;
+  background-color: #7795d6;
+}
+#myCarousel .carousel-inner .last-project{
+  height: 750px;
+  background-color: #93c3e7;
+}
 .carousel-caption{
     top: 50%;
     transform: translateY(-50%);
@@ -29,7 +44,7 @@
     color: #fff;
     padding: 12px 22px;
     background-color: #5e4485;
-    border: 2px solid #fff;
+    border: 2px solid #543d77;
 }
 .btn:hover{
     color: #5e4485;
@@ -43,14 +58,48 @@
     max-width: 120px;
     margin: 1% auto;
 }
+#knowledge{
+  background-color: #ded9e6;
+}
+#knowledge h2{
+  padding-top: 15px;
+}
 @media (max-width: 780px){
-    .carousel-caption{
-        display: none;
-    }
-    #icon{
-        max-width: 120px;
-    }
-    h4{
-        font-size: 1.5em;
-    }
+  #myCarousel{
+    height: 600px;
+  }
+  #myCarousel .carousel-inner .who-i-am{
+    height: 600px;
+    background-color: #a9f7fd;
+  }
+  #myCarousel .carousel-inner .what-i-am-working-on{
+    height: 600px;
+    background-color: #7795d6;
+  }
+  #myCarousel .carousel-inner .last-project{
+    height: 600px;
+    background-color: #93c3e7;
+  }
+  .mountain{
+    background-image: NONE;
+    background-color: blue;
+  }
+  .snow{
+    background-image: NONE;
+    background-color: grey;
+  }
+  .RED{
+    background-image: NONE;
+    background-color: RED;
+  }
+  #myCarousel img{
+    height: 600px;
+    object-fit: none;
+  }
+  #icon{
+      max-width: 120px;
+  }
+  h4{
+      font-size: 1.5em;
+  }
 }
