@@ -1,4 +1,9 @@
+
+body{
+  margin-top: 81px;
+}
 .navbar {
+    height: 81px;
     margin-bottom: 0;
     border-radius: 0;
     background-color: #5e4485;
@@ -12,6 +17,12 @@
     min-height: 55px;
     padding: 0 15px 5px;
 }
+.navbar-header {
+  padding: 8px;
+}
+.navbar-inverse .navbar-collapse{
+  border-color: #5e4485;
+}
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
     color: #fff;
     background-color: #5e4485
@@ -20,19 +31,43 @@
     color: #d5d5d5
 }
 #myCarousel{
-  height: 750px;
+  height: 635px;
 }
 #myCarousel .carousel-inner .who-i-am{
-  height: 750px;
+  height: 635px;
   background-color: #a9f7fd;
 }
 #myCarousel .carousel-inner .what-i-am-working-on{
-  height: 750px;
+  height: 635px;
   background-color: #7795d6;
 }
 #myCarousel .carousel-inner .last-project{
-  height: 750px;
+  height: 635px;
   background-color: #93c3e7;
+}
+#projects{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#projects .project-laptop img{
+  height: 190px;
+}
+#project_slide{
+  padding-top: 55px;
+}
+#project_slide img{
+  margin: 0 auto;
+  max-height: 400px;
+}
+#project_slide ol li{
+  background-color: grey;
+}
+#project_slide .carousel-control{
+  background-image: none;
+}
+#project_slide .carousel-control span{
+  color: grey;
 }
 .carousel-caption{
     top: 50%;
@@ -55,51 +90,62 @@
     margin: 4% auto;
 }
 #icon{
-    max-width: 120px;
+    max-width: 100px;
     margin: 1% auto;
 }
+.about-content{
+  padding: 20px 0;
+}
 #knowledge{
-  background-color: #ded9e6;
+  padding: 84px;
+  background-color: #8faac9;
 }
 #knowledge h2{
-  padding-top: 15px;
+  padding-top: 35px;
+  color: #333333;
 }
+#knowledge h4{
+  padding-top: 15px;
+  color: #4d4d4d;
+}
+#project-carousel {
+  top: -740px;
+  width: 65%;
+  height: 460px;
+  margin: 0 auto;
+  background-color: #a9f7fd;
+}
+#contact{
+  height: 180px;;
+  bottom: 0;
+  text-align: center;
+  background-color: #a9f7fd;
+}
+#contact h3{
+  padding-top: 20px;
+}
+
+/*For Mobile*/
 @media (max-width: 780px){
-  #myCarousel{
-    height: 600px;
-  }
-  #myCarousel .carousel-inner .who-i-am{
-    height: 600px;
-    background-color: #a9f7fd;
-  }
-  #myCarousel .carousel-inner .what-i-am-working-on{
-    height: 600px;
-    background-color: #7795d6;
-  }
-  #myCarousel .carousel-inner .last-project{
-    height: 600px;
-    background-color: #93c3e7;
-  }
-  .mountain{
-    background-image: NONE;
-    background-color: blue;
-  }
-  .snow{
-    background-image: NONE;
-    background-color: grey;
-  }
-  .RED{
-    background-image: NONE;
-    background-color: RED;
+  #project-carousel {
+  top: -210px;
+  width: 65%;
+  height: 130px;
+  margin: 0 auto;
+  background-color: #a9f7fd;
+}
+  #myNavbar{
+    background-color: #5e4485;  
   }
   #myCarousel img{
     height: 600px;
     object-fit: none;
   }
   #icon{
-      max-width: 120px;
+      max-width: 70px;
+      margin: 1% auto;
   }
   h4{
-      font-size: 1.5em;
+      font-size: 1em;
   }
 }
