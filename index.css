@@ -1,6 +1,16 @@
 
 body{
-  margin-top: 81px;
+  margin-top: 0px;
+}
+#last-project .container{
+  width: auto;
+  padding-top: 35px;
+  margin: 0 240px;
+}
+#got-in-the-works .container{
+  width: auto;
+  padding-top: 35px;
+  margin: 0 240px;
 }
 .navbar {
     height: 81px;
@@ -47,11 +57,11 @@ body{
 }
 #projects{
   width: 100%;
-  padding: 0;
+  padding: 85px 0;
   margin: 0;
 }
 #projects .project-laptop img{
-  height: 190px;
+  height: 140px;
 }
 #project_slide{
   padding-top: 55px;
@@ -97,6 +107,7 @@ body{
   padding: 20px 0;
 }
 #knowledge{
+  height: 530px;
   padding: 84px;
   background-color: #8faac9;
 }
@@ -116,7 +127,7 @@ body{
   background-color: #a9f7fd;
 }
 #contact{
-  height: 180px;;
+padding-bottom: 5px;
   bottom: 0;
   text-align: center;
   background-color: #a9f7fd;
@@ -124,6 +135,7 @@ body{
 #contact h3{
   padding-top: 20px;
 }
+
 
 /*For Mobile*/
 @media (max-width: 780px){
@@ -147,5 +159,8 @@ body{
   }
   h4{
       font-size: 1em;
+  }
+  #knowledge{
+    height: 650px;
   }
 }
