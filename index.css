@@ -5,7 +5,10 @@ body{
 h1{
   font-family: "din-condensed";
   font-weight: 400;
-  font-size: 55px;
+  font-size: 52px;
+}
+.grey {
+  color: #d5d5d5;
 }
 h3{
   font-family: "din-condensed";
@@ -54,8 +57,17 @@ a{
 }
 .navbar-header {
   margin: 0;
-  padding: 0px;
-  transform: translateY(-25%);
+  padding: 0;
+  padding-left: 45px;
+  transform: translateY(-10%);
+}
+.navbar-header h1 {
+  display: inline;
+}
+.navbar-right{
+  padding: 0;
+  padding-right: 30px;
+  margin:0;
 }
 .navbar-inverse .navbar-collapse{
   border-color: #1b99d6;
@@ -68,21 +80,21 @@ a{
     color: #d5d5d5
 }
 #myCarousel{
-  height: 635px;
+  height: 600px;
 }
 #myCarousel a{
   color: #d5d5d5;
 }
 #myCarousel .carousel-inner .who-i-am{
-  height: 635px;
-  background-color: #1b99d6;
+  height: 600px;
+  background-image: url("img/banner7.jpg");
+  background-size: cover;
+  /*background-color: #1b99d6;*/
 }
 #myCarousel .carousel-inner .what-i-am-working-on{
-  height: 635px;
   background-color: #1b99d6;
 }
 #myCarousel .carousel-inner .last-project{
-  height: 635px;
   background-color: #1b99d6;
 }
 #projects{
@@ -111,7 +123,7 @@ a{
 }
 .carousel-caption{
     top: 50%;
-    transform: translateY(-75%);
+    transform: translateY(-25%);
     text-transform: uppercase;
 }
 .btn {
@@ -169,7 +181,11 @@ padding-bottom: 5px;
 #contact a {
   color: #d5d5d5;
 }
-
+.social_media img{
+  margin: 60px 10px 20px 10px;
+  width: 50px;
+  height: 50px;
+}
 
 /*For Mobile*/
 @media (max-width: 780px){
