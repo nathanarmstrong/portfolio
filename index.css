@@ -2,6 +2,31 @@
 body{
   margin-top: 0px;
 }
+h1{
+  font-family: "din-condensed";
+  font-weight: 400;
+  font-size: 55px;
+}
+h3{
+  font-family: "din-condensed";
+  font-weight: 300;
+  font-size: 35px;
+}
+h4{
+  font-family: "din-condensed";
+  font-weight: 300;
+  font-size: 20px;
+}
+p{
+  font-family: "din-condensed";
+  font-weight: 120;
+  font-size: 16px;
+}
+a{
+  font-family: "din-condensed";
+  font-weight: 120;
+  font-size: 16px;
+}
 #last-project .container{
   width: auto;
   padding-top: 35px;
@@ -16,7 +41,7 @@ body{
     height: 81px;
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #5e4485;
+    background-color: #1b99d6;
     color: #fff;
     padding: 1% 0;
     font-size: 1.2em;
@@ -28,14 +53,16 @@ body{
     padding: 0 15px 5px;
 }
 .navbar-header {
-  padding: 8px;
+  margin: 0;
+  padding: 0px;
+  transform: translateY(-25%);
 }
 .navbar-inverse .navbar-collapse{
-  border-color: #5e4485;
+  border-color: #1b99d6;
 }
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
     color: #fff;
-    background-color: #5e4485
+    background-color: #1b99d6
 }
 .navbar-inverse .navbar-nav li a{
     color: #d5d5d5
@@ -43,17 +70,20 @@ body{
 #myCarousel{
   height: 635px;
 }
+#myCarousel a{
+  color: #d5d5d5;
+}
 #myCarousel .carousel-inner .who-i-am{
   height: 635px;
-  background-color: #a9f7fd;
+  background-color: #1b99d6;
 }
 #myCarousel .carousel-inner .what-i-am-working-on{
   height: 635px;
-  background-color: #7795d6;
+  background-color: #1b99d6;
 }
 #myCarousel .carousel-inner .last-project{
   height: 635px;
-  background-color: #93c3e7;
+  background-color: #1b99d6;
 }
 #projects{
   width: 100%;
@@ -81,20 +111,20 @@ body{
 }
 .carousel-caption{
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-75%);
     text-transform: uppercase;
 }
 .btn {
     font-size: 18px;
     color: #fff;
     padding: 12px 22px;
-    background-color: #5e4485;
-    border: 2px solid #543d77;
+    background-color: #1b99d6;
+    border: 2px solid #1b99d6;
 }
 .btn:hover{
-    color: #5e4485;
+    color: #1b99d6;
     background-color: #fff;
-    border: 2px solid #5e4485;
+    border: 2px solid #1b99d6;
 }
 .container{
     margin: 4% auto;
@@ -109,31 +139,35 @@ body{
 #knowledge{
   height: 530px;
   padding: 84px;
-  background-color: #8faac9;
+  background-color: #1b99d6;
+
 }
-#knowledge h2{
+#knowledge h1{
   padding-top: 35px;
-  color: #333333;
+  color: #fff;
 }
 #knowledge h4{
   padding-top: 15px;
-  color: #4d4d4d;
+  color: #fff;
 }
 #project-carousel {
   top: -740px;
   width: 65%;
   height: 460px;
   margin: 0 auto;
-  background-color: #a9f7fd;
+  background-color: #1b99d6;
 }
 #contact{
 padding-bottom: 5px;
   bottom: 0;
   text-align: center;
-  background-color: #a9f7fd;
+  background-color: #1b99d6;
 }
 #contact h3{
   padding-top: 20px;
+}
+#contact a {
+  color: #d5d5d5;
 }
 
 
@@ -144,10 +178,10 @@ padding-bottom: 5px;
   width: 65%;
   height: 130px;
   margin: 0 auto;
-  background-color: #a9f7fd;
+  background-color: #1b99d6;
 }
   #myNavbar{
-    background-color: #5e4485;  
+    background-color: #1b99d6;  
   }
   #myCarousel img{
     height: 600px;
